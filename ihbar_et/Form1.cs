@@ -55,9 +55,21 @@ namespace ihbar_et
             string acikAdres = adresRichTextBox.Text;
 
             // Gerekli alanların dolu olup olmadığını kontrol edin
-            if (string.IsNullOrWhiteSpace(secilenIl) || string.IsNullOrWhiteSpace(secilenIlce) || string.IsNullOrWhiteSpace(acikAdres))
+            if (string.IsNullOrWhiteSpace(secilenIl))
             {
-                MessageBox.Show("Lütfen il, ilçe ve açık adres alanlarını doldurun.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Lütfen il seçiniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // İşlemi burada sonlandırın
+            }
+
+            if (string.IsNullOrWhiteSpace(secilenIlce))
+            {
+                MessageBox.Show("Lütfen ilçe seçiniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // İşlemi burada sonlandırın
+            }
+
+            if (string.IsNullOrWhiteSpace(acikAdres))
+            {
+                MessageBox.Show("Lütfen açık adresi giriniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return; // İşlemi burada sonlandırın
             }
 
@@ -84,6 +96,7 @@ namespace ihbar_et
             // Örnek olarak her zaman başarılı olduğunu varsayalım
             return true;
         }
+
 
     }
 }
