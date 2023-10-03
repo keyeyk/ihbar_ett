@@ -1,0 +1,11 @@
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\bin\Debug\ihbar_et.exe.config
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\bin\Debug\ihbar_et.exe
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\bin\Debug\ihbar_et.pdb
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.csproj.AssemblyReference.cache
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.csproj.SuggestedBindingRedirects.cache
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.Form1.resources
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.Properties.Resources.resources
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.csproj.GenerateResource.cache
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.csproj.CoreCompileInputs.cache
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.exe
+C:\Users\kak_y\source\repos\ihbar_et\ihbar_et\obj\Debug\ihbar_et.pdb
