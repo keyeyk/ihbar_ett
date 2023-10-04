@@ -41,47 +41,87 @@
             // 
             this.ilComboBox.FormattingEnabled = true;
             this.ilComboBox.Items.AddRange(new object[] {
-            "a",
-            "a",
-            "a",
-            "a",
-            "a",
-            "aa",
-            "a",
-            "a",
-            "aa",
-            "",
-            "b",
-            "b",
-            "b",
-            "b",
-            "b",
-            "b",
-            "bb",
-            "b",
-            "",
-            "b",
-            "b",
-            "b",
-            "b",
-            "b",
-            "c",
-            "",
-            "c",
-            "c",
-            "c",
-            "cc",
-            "",
-            "cc",
-            "c",
-            "c",
-            "c",
-            "c",
-            "c",
-            "",
-            "cc",
-            "c"});
-            this.ilComboBox.Location = new System.Drawing.Point(120, 100);
+            "Adana",
+            "Adıyaman",
+            "Afyonkarahisar",
+            "Ağrı",
+            "Amasya",
+            "Ankara",
+            "Antalya",
+            "Artvin",
+            "Aydın",
+            "Balıkesir",
+            "Bilecik",
+            "Bingöl",
+            "Bitlis",
+            "Bolu",
+            "Burdur",
+            "Bursa",
+            "Çanakkale",
+            "Çankırı",
+            "Çorum",
+            "Denizli",
+            "Diyarbakir",
+            "Edirne",
+            "Elazığ",
+            "Erzincan",
+            "Erzurum",
+            "Eskişehir",
+            "Gaziantep",
+            "Giresun",
+            "Gümüşhane",
+            "Hakkari",
+            "Hatay",
+            "Isparta",
+            "Mersin",
+            "İstanbul",
+            "İzmir",
+            "Kars",
+            "Kastamonu",
+            "Kayseri",
+            "Kırklareli",
+            "Kırşehir",
+            "Kocaeli",
+            "Konya",
+            "Kütahya",
+            "Malatya",
+            "Manisa",
+            "Kahramanmaraş",
+            "Mardin",
+            "Muğla",
+            "Muş",
+            "Nevşehir",
+            "Niğde",
+            "Ordu",
+            "Rize",
+            "Sakarya",
+            "Samsun",
+            "Siirt",
+            "Sinop",
+            "Sivas",
+            "Tekirdağ",
+            "Tokat",
+            "Trabzon",
+            "Tunceli",
+            "Şanlıurfa",
+            "Uşak",
+            "Van",
+            "Yozgat",
+            "Zonguldak",
+            "Aksaray",
+            "Bayburt",
+            "Karaman",
+            "Kırıkkale",
+            "Batman",
+            "Şırnak",
+            "Bartın",
+            "Ardahan",
+            "Iğdır",
+            "Yalova",
+            "Karabük",
+            "Kilis",
+            "Düzce"});
+            this.ilComboBox.Location = new System.Drawing.Point(179, 142);
             this.ilComboBox.Name = "ilComboBox";
             this.ilComboBox.Size = new System.Drawing.Size(121, 21);
             this.ilComboBox.TabIndex = 0;
@@ -90,7 +130,7 @@
             // ilceComboBox
             // 
             this.ilceComboBox.FormattingEnabled = true;
-            this.ilceComboBox.Location = new System.Drawing.Point(120, 140);
+            this.ilceComboBox.Location = new System.Drawing.Point(179, 182);
             this.ilceComboBox.Name = "ilceComboBox";
             this.ilceComboBox.Size = new System.Drawing.Size(121, 21);
             this.ilceComboBox.TabIndex = 1;
@@ -98,7 +138,7 @@
             // lblCity
             // 
             this.lblCity.AutoSize = true;
-            this.lblCity.Location = new System.Drawing.Point(38, 103);
+            this.lblCity.Location = new System.Drawing.Point(97, 145);
             this.lblCity.Name = "lblCity";
             this.lblCity.Size = new System.Drawing.Size(31, 13);
             this.lblCity.TabIndex = 2;
@@ -107,7 +147,7 @@
             // lblTown
             // 
             this.lblTown.AutoSize = true;
-            this.lblTown.Location = new System.Drawing.Point(38, 143);
+            this.lblTown.Location = new System.Drawing.Point(97, 185);
             this.lblTown.Name = "lblTown";
             this.lblTown.Size = new System.Drawing.Size(24, 13);
             this.lblTown.TabIndex = 3;
@@ -115,7 +155,7 @@
             // 
             // adresRichTextBox
             // 
-            this.adresRichTextBox.Location = new System.Drawing.Point(120, 178);
+            this.adresRichTextBox.Location = new System.Drawing.Point(179, 220);
             this.adresRichTextBox.Name = "adresRichTextBox";
             this.adresRichTextBox.Size = new System.Drawing.Size(299, 46);
             this.adresRichTextBox.TabIndex = 4;
@@ -124,7 +164,7 @@
             // lblAddressInfo
             // 
             this.lblAddressInfo.AutoSize = true;
-            this.lblAddressInfo.Location = new System.Drawing.Point(38, 181);
+            this.lblAddressInfo.Location = new System.Drawing.Point(97, 223);
             this.lblAddressInfo.Name = "lblAddressInfo";
             this.lblAddressInfo.Size = new System.Drawing.Size(58, 13);
             this.lblAddressInfo.TabIndex = 5;
@@ -132,9 +172,9 @@
             // 
             // ihbarEt
             // 
-            this.ihbarEt.Location = new System.Drawing.Point(137, 259);
+            this.ihbarEt.Location = new System.Drawing.Point(179, 286);
             this.ihbarEt.Name = "ihbarEt";
-            this.ihbarEt.Size = new System.Drawing.Size(189, 113);
+            this.ihbarEt.Size = new System.Drawing.Size(104, 61);
             this.ihbarEt.TabIndex = 6;
             this.ihbarEt.Text = "İhbar Et !";
             this.ihbarEt.UseVisualStyleBackColor = true;
@@ -144,7 +184,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 571);
+            this.ClientSize = new System.Drawing.Size(551, 571);
             this.Controls.Add(this.ihbarEt);
             this.Controls.Add(this.lblAddressInfo);
             this.Controls.Add(this.adresRichTextBox);
